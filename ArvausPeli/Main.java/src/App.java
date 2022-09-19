@@ -24,7 +24,6 @@ public class App {
             System.out.println("Arvaus: ");
             int arvaus = Integer.valueOf(lukija.nextLine());
             if (arvaus == -1) {
-                System.out.println("Oikeita arvauksia: " + oikeat);
                 break;
             }
             
